@@ -24,7 +24,6 @@ import vtfoundation from "./company/vtfoundation.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
-import vate from "./vate.png";
 import hospital from "./hospital.png";
 import manga from "./manga.png";
 import portfolio from "./portfolio.png";
@@ -57,7 +56,6 @@ export {
   jobit,
   rails,
   tripguide,
-  vate, 
   hospital,
   manga,
   portfolio,
