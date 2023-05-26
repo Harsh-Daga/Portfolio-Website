@@ -34,8 +34,8 @@ const Contact = () => {
 
     emailjs
       .send(
-        "service_rycvs4j",
-        "template_fi8gd9r",
+        $SERVICE_TOKEN,
+        $TEMPLATE_TOKEN,
         {
           from_name: form.name,
           to_name: "Harsh Daga",
@@ -43,7 +43,7 @@ const Contact = () => {
           to_email: "hs108699@gmail.com",
           message: form.message,
         },
-        "UMPMFL_uIao8rbIfl"
+        $PUBLIC_KEY
       )
       .then(
         () => {
