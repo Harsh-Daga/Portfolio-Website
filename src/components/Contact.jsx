@@ -138,7 +138,7 @@ const Contact = () => {
         className="flex-[0.75] pt-[50px] gap-10 flex rounded-2xl"
       >
         <SocialIcon url="https://twitter.com/harshsdaga" />
-        <SocialIcon url="https://www.linkedin.com/in/harsh-daga2003/" />
+        <SocialIcon url="https://www.linkedin.com/in/harsh-daga2003/" bgColor="#0072B1" />
         <SocialIcon url="https://github.com/Harsh-Daga" bgColor="#fff" />
       </motion.div>
 
