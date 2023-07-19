@@ -25,8 +25,8 @@ const App = () => {
           <Tech />
           <Works />
           <Contact />
-          <StarsCanvas />
         </div>
+        <StarsCanvas />
       </div>
     </BrowserRouter>
   );

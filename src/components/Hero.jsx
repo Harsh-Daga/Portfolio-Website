@@ -7,9 +7,9 @@ import { SocialIcon } from "react-social-icons";
 
 const Hero = () => {
   return (
-    <section className="relative  w-full h-screen mx-auto">
+    <section className="relative  w-full h-screen mx-[10px]" style={{}}>
       <div
-        className={`${styles.paddingX} absolute inset-0 max-w-7xl mx-auto flex flex-row items-center gap-6`}
+        className={`${styles.paddingX} absolute inset-0 max-w-7xl mx-auto flex flex-row items-center justify-center gap-6`}
       >
         <div>
           <h1 id="head-text" className={`${styles.heroHeadText} text-white`}>
@@ -24,23 +24,37 @@ const Hero = () => {
             />
           </h1>
           <p
-            className={`hero-subtext ${styles.heroSubText} mt-2 text-white-100 `}
+            className={`hero-subtext ${styles.heroSubText} mt-3 text-white-100 `}
           >
-            I'm a <span className="bg-[#00008E] px-2">Full stack Developer</span> <br/> with
-            expertise in <span className="bg-[#00896A] px-2">React</span> & <br className="lg:hidden" /> <span className="bg-[#00896A] px-2">Ruby on Rails</span>{" "}
+            I'm a{" "}
+            <span className="bg-[#00008E] px-2">Full stack Developer</span>{" "}
+            <br /> with expertise in{" "}
+            <span className="bg-[#00896A] px-2">React</span> &{" "}
+            <br className="lg:hidden" />{" "}
+            <span className="bg-[#00896A] px-2">Ruby on Rails</span>{" "}
           </p>
           <motion.div
             variants={slideIn("left", "tween", 0.2, 1)}
             className="pt-[50px] gap-10 flex rounded-2xl"
           >
-            <SocialIcon url="https://twitter.com/harshsdaga" />
+            <SocialIcon url="https://twitter.com/harshsdaga" target="_blank" />
             <SocialIcon
               url="https://www.linkedin.com/in/harsh-daga2003/"
               bgColor="#0A66C2"
+              target="_blank"
             />
-            <SocialIcon url="https://github.com/Harsh-Daga" bgColor="#fff" />
+            <SocialIcon
+              url="https://github.com/Harsh-Daga"
+              bgColor="#fff"
+              target="_blank"
+            />
+          </motion.div>
+          <motion.div
+           variants={slideIn("left", "tween", 0.2, 1)}
+           className="pt-[50px] gap-10 flex rounded-2xl justify-center"
+          >
             <a
-              class="h-15 flex items-center w-100 px-6 text-[20px] font-bold rounded-md bg-[#00896A] text-white"
+              class="h-[50px] flex items-center w-100 px-6 text-[20px] font-bold rounded-md bg-[#00896A] text-white"
               href="https://drive.google.com/file/d/1k_6OoEMp5QY7IlTjChP19_DYl58yzFoZ/view?usp=sharing"
               target="_blank"
             >
