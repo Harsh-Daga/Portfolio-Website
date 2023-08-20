@@ -22,6 +22,9 @@ import {
   hospital,
   manga,
   portfolio,
+  signify,
+  blogspot,
+  mercato,
 } from "../assets";
 
 export const navLinks = [
@@ -115,6 +118,18 @@ const technologies = [
 
 const experiences = [
   {
+    title: "Full-Stack Development Intern",
+    company_name: "Mercato Fabbrica",
+    icon: mercato,
+    iconBg: "#fff",
+    date: "Dec. 2023 – Present",
+    points: [
+      "Developed and maintained their web application using Ruby on Rails.",
+      "Played a pivotal role in achieving a substantial 40% reduction in initial page load times across diverse projects through the implementation of performance",
+      "Implemented responsive design and ensured cross-browser compatibility.",
+    ],
+  },
+  {
     title: "Full stack Developer",
     company_name: "Bigbuddy Pvt ltd",
     icon: bigbuddy,
@@ -122,9 +137,9 @@ const experiences = [
     date: "August 2022 - December 2022",
     points: [
       "Developing and maintaining web applications using React.js, Ruby on Rails and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Established an AWS Framework for the company to efficiently manage AWS resources and was able to reduce the overall cost by 20%.",
+      "Skillfully crafted websites prioritizing responsiveness, cross-platform compatibility, and mobile optimization. This resulted in a remarkable 30% boost in user engagement on smartphones and tablets, further enhancing the user experience.",
+      "Implemented responsive design and ensured cross-browser compatibility.",
     ],
   },
   {
@@ -176,46 +191,46 @@ const projects = [
     source_code_link: "https://github.com/Harsh-Daga/Portfolio-Website",
   },
   {
-    name: "Hospital Website",
+    name: "Blogspot",
     description:
-      "Built a SAAS application for doctors and patients where they can schedule appointments, check medical records etc.",
+      "Developed a full-stack web application(blog app) with Nextjs and MongoDB backend database.",
     tags: [
       {
-        name: "PHP",
+        name: "Nextjs",
         color: "blue-text-gradient",
       },
       {
-        name: "MySQL",
+        name: "MongoDB",
         color: "green-text-gradient",
       },
       {
-        name: "BootStrap",
+        name: "Material-UI",
         color: "pink-text-gradient",
       },
     ],
-    image: hospital,
-    source_code_link: "https://github.com/Harsh-Daga/Hospital-management-system",
+    image: blogspot,
+    source_code_link: "https://github.com/Harsh-Daga/Blogspot",
   },
   {
-    name: "Manga Reader",
+    name: "Signify",
     description:
-      "A comprehensive Comic book Reading platform that allows users to read the latest manga comic books.",
+      "Developed a Sign langauge recognition app using Nextjs.",
     tags: [
       {
-        name: "Reactjs",
+        name: "Nextjs",
         color: "blue-text-gradient",
       },
       {
-        name: "Redux",
+        name: "Tensorflow",
         color: "green-text-gradient",
       },
       {
-        name: "CSS",
+        name: "OpenCV",
         color: "pink-text-gradient",
       },
     ],
-    image: manga,
-    source_code_link: "https://github.com/Harsh-Daga/manga-viewer",
+    image: signify,
+    source_code_link: "https://github.com/Harsh-Daga/Signify",
   },
 ];
 

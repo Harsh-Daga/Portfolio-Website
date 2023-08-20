@@ -28,6 +28,9 @@ import hospital from "./hospital.png";
 import manga from "./manga.png";
 import portfolio from "./portfolio.png";
 import rails from "./tech/rails.png";
+import signify from "./signify.png";
+import blogspot from "./blogspot.png";
+import mercato from "./mercato.png";
 
 export {
   backend,
@@ -59,4 +62,7 @@ export {
   hospital,
   manga,
   portfolio,
+  signify,
+  blogspot,
+  mercato,
 };

@@ -55,7 +55,7 @@ const Hero = () => {
           >
             <a
               class="h-[50px] flex items-center w-100 px-6 text-[20px] font-bold rounded-md bg-[#00896A] text-white"
-              href="https://drive.google.com/file/d/1k_6OoEMp5QY7IlTjChP19_DYl58yzFoZ/view?usp=sharing"
+              href="https://drive.google.com/file/d/17-NBIEodBPy8LRZDrXEjcRsKSWFKx8gh/view?usp=sharing"
               target="_blank"
             >
               RESUME
